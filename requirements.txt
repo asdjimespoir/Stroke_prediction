@@ -1,5 +1,6 @@
 pip
 deta
+dotenv
 imageio
 keras
 numpy
