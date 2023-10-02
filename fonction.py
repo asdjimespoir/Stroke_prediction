@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import streamlit as st
-import pandas_profiling
 import tensorflow as tf
 from pathlib import Path
 from scipy import ndimage
@@ -17,8 +16,6 @@ from keras.models import load_model
 import streamlit_authenticator as stauth
 from tensorflow.keras.optimizers import SGD
 from streamlit_option_menu import option_menu
-from streamlit_pandas_profiling import st_profile_report
-
 from sklearn.compose import ColumnTransformer #data preprocessing
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder #data preprocessing
 
