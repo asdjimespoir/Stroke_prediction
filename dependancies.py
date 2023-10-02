@@ -14,7 +14,7 @@ from email.mime.multipart import MIMEMultipart
 
 
 #Load the environment variables
-load_dotenv(".env")
+#load_dotenv(".env")
 #DETA_KEY = os.getenv("DETA_KEY")
 DETA_KEY = 'a0m78dwvhdm_1SDma2An8odFQf6Ti6QN2Nr9FxjztVbi'
 
