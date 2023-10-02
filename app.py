@@ -128,7 +128,7 @@ def show_main_page():
                     """
                 )
             #Image d'accueil
-            image = Image.open('./St.jpg')
+            image = Image.open('St.jpg')
 
             st.image(image) #caption="Resized Image", use_column_width=True
             st.markdown(
