@@ -7,6 +7,7 @@ pandas==2.0.2
 plotly==5.15.0
 plotly-express==0.4.1
 ply==3.11
+pickle5
 scikit-image==0.21.0
 scikit-learn==1.2.2
 scipy==1.10.1
