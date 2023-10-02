@@ -15,7 +15,7 @@ import streamlit_authenticator as stauth
 from dependancies import sign_up, fetch_users, send_email_tab, send_email_img
 
 #Load the environment variables
-load_dotenv(".env")
+#load_dotenv(".env")
 #DETA_KEY = os.getenv("DETA_KEY")
 DETA_KEY = 'a0m78dwvhdm_1SDma2An8odFQf6Ti6QN2Nr9FxjztVbi'
 
