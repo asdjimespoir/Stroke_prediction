@@ -272,8 +272,8 @@ def show_main_page():
                     image = Image.open(file)
                     image = np.array(image)
                     size = (300, 300)
-                    images = cv2.resize(image, size , interpolation=cv2.INTER_AREA)
-                    st.image(images)
+                    #images = cv2.resize(image, size , interpolation=cv2.INTER_AREA)
+                    st.image(image)
 
                     pred = imagePred(image, modelImg)
                     if pred > 0.50 :
