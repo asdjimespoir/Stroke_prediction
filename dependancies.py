@@ -6,7 +6,7 @@ from deta import Deta
 import streamlit as st
 #import databases as db
 from email import encoders
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit_authenticator as stauth
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
