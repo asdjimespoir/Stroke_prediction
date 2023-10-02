@@ -1,5 +1,4 @@
 deta
-dotenv
 imageio
 keras
 numpy
