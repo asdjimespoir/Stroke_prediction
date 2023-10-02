@@ -8,7 +8,7 @@ from deta import Deta
 import streamlit as st
 import tensorflow as tf
 from fonction import *
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from keras.models import load_model
 import streamlit.components.v1 as stc
 import streamlit_authenticator as stauth
