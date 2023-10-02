@@ -1,4 +1,5 @@
 import os
+import cv2
 import base64
 import pickle
 import numpy as np
@@ -272,7 +273,7 @@ def show_main_page():
                     image = Image.open(file)
                     image = np.array(image)
                     size = (300, 300)
-                    #images = cv2.resize(image, size , interpolation=cv2.INTER_AREA)
+                    images = cv2.resize(image, size , interpolation=cv2.INTER_AREA)
                     st.image(image)
 
                     pred = imagePred(image, modelImg)
