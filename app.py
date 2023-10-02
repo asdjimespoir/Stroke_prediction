@@ -244,7 +244,7 @@ def show_main_page():
                         #stc.html(HTML_DIALOG.format(result=pred) + JS_DIALOG)
                         st.error("This patient's risk of stroke is : {:.2%}.".format(prediction), icon="⚠️")
                         #Send email
-                        user_email = "aminedjimetgah96@gmail.com"
+                        user_email = "asdjim.espoir.guelmian@horizon-tech.tn"
                         send_email(user_email, name, prediction, csv_file_path)
                         
                     else:
