@@ -4,9 +4,8 @@ import smtplib
 import datetime
 from deta import Deta
 import streamlit as st
-#import databases as db
 from email import encoders
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 import streamlit_authenticator as stauth
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -14,7 +13,7 @@ from email.mime.multipart import MIMEMultipart
 
 
 #Load the environment variables
-#load_dotenv(".env")
+load_dotenv(".env")
 #DETA_KEY = os.getenv("DETA_KEY")
 DETA_KEY = 'a0m78dwvhdm_1SDma2An8odFQf6Ti6QN2Nr9FxjztVbi'
 
