@@ -245,7 +245,7 @@ def show_main_page():
                         st.error("This patient's risk of stroke is : {:.2%}.".format(prediction), icon="⚠️")
                         #Send email
                         user_email = "asdjim.espoir.guelmian@horizon-tech.tn"
-                        send_email(user_email, name, prediction, csv_file_path)
+                        send_email_tab(user_email, name, prediction, csv_file_path)
                         
                     else:
                         prediction = 1-prediction
