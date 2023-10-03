@@ -53,8 +53,8 @@ authenticator = stauth.Authenticate(credentials, cookie_name='Streamlit', key='a
 
 name, authentication_status, username = authenticator.login(':green[Login]', 'main')
 
-print(credentials)
-st.session_state
+#print(credentials)
+#st.session_state
 
 def gestionUsers():
     stc.html(HTML_USER)
