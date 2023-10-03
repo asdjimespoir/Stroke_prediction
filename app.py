@@ -237,8 +237,8 @@ def show_main_page():
                     df_pred['Stroke'] = ["Yes" if prediction >0.5 else "No"]
                     
                     #export_dataframe_to_csv(df_pred, csv_file_path)
-                    df_pred.to_csv('./file.csv', index=False)
-                    csv_file_path = './file.csv'
+                    df_pred.to_csv('file.csv', index=False)
+                    csv_file_path = 'file.csv'
                     
                     if prediction > 0.50 :
                         #stc.html(HTML_DIALOG.format(result=pred) + JS_DIALOG)
