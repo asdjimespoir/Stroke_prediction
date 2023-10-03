@@ -6,7 +6,7 @@ import streamlit as st
 from deta import Deta
 from dependancies import *
 import plotly.express as px
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit.components.v1 as stc
 from dependancies import sign_up, fetch_users
 from streamlit_option_menu import option_menu
