@@ -13,9 +13,10 @@ from streamlit_option_menu import option_menu
 
 
 #Load the environment variables
-load_dotenv(".env")
-DETA_KEY = os.getenv("DETA_KEY")
+#load_dotenv(".env")
+#DETA_KEY = os.getenv("DETA_KEY")
 
+DETA_KEY = 'a0m78dwvhdm_1SDma2An8odFQf6Ti6QN2Nr9FxjztVbi'
 deta = Deta(DETA_KEY)
 
 db = deta.Base('FedIA')
@@ -29,7 +30,7 @@ HTML_USER = """
     """
 
 # User Authentification
-users = fetch_users()
+users = db.fetch().items#fetch_users()
 #emails = []
 roles = []
 names = []
@@ -218,4 +219,3 @@ else:
         gestionUsers()
     else:
         show_login_page()
-#gestionUsers()
