@@ -33,7 +33,7 @@ def send_email_tab(user_email, name, pred, csv_file_path):
     msg = MIMEMultipart()
     msg['From'] = 'espoir.asdjimguel@gmail.com'
     msg['To'] = user_email
-    msg['Subject'] = 'Le résultat de la prédiction'
+    msg['Subject'] = 'Alerte!!! Résultat de la prédiction'
 
     # Corps du message
     body = "Bonjour {}! \n\nLe patient risque l'AVC à : {:.3%}\nMerci de le prendre en charge dans un bref délai\n\nCordialement,\nL'équipe de l application de prédiction".format(name, pred)
@@ -75,7 +75,7 @@ def send_email_img(user_email, name, pred):
     msg = MIMEMultipart()
     msg['From'] = 'espoir.asdjimguel@gmail.com'
     msg['To'] = user_email
-    msg['Subject'] = 'Alerte!!! Le résultat de la prédiction'
+    msg['Subject'] = 'Alerte!!! Résultat de la prédiction'
 
     # Corps du message
     body = "Bonjour {}! \n\nLe patient risque l'AVC à : {:.3%}\nMerci de le prendre en charge dans un bref délai\n\nCordialement,\nL'équipe de l'application de prédiction".format(name, pred)
