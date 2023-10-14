@@ -13,14 +13,11 @@ from streamlit_option_menu import option_menu
 
 
 #Load the environment variables
-#load_dotenv(".env")
-#DETA_KEY = os.getenv("DETA_KEY")
-
-DETA_KEY = 'a0m78dwvhdm_1SDma2An8odFQf6Ti6QN2Nr9FxjztVbi'
+load_dotenv(".env")
+DETA_KEY = os.getenv("DETA_KEY")
 deta = Deta(DETA_KEY)
 
 db = deta.Base('FedIA')
-
 
 HTML_USER = """
     <div style="background-color:#464e5f;padding:10px;border-radius:10px">
